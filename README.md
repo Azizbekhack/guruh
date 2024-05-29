@@ -22,3 +22,4 @@ Linux/Mac
 ```shell
 python3 app.py
 ```
+![image](https://github.com/Azizbekhack/guruh/assets/170541584/3f9f8c92-43d9-4da1-b8f8-2dec2fa1f1fb)
