@@ -116,7 +116,7 @@ async def unmute_user(message:Message):
     await message.chat.restrict(user_id=user_id,permissions=permission)
     await message.answer(f"{message.reply_to_message.from_user.first_name} guruhga yoza olasiz")
 
-xaqoratli_sozlar = {"tentak","jinni"}
+xaqoratli_sozlar = {"tentak","jinni" }
 
 @dp.message(and_f(F.chat.func(lambda chat: chat.type == "supergroup"),F.text ))
 async def tozalash(message:Message):
